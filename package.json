@@ -6,7 +6,8 @@
   "scripts": {
     "sass": "node-sass scss/main.scss css/style.css && node-sass --watch scss/main.scss css/style.css",
     "dev": "concurrently live-server \"npm run sass\"",
-    "build": "node-sass scss/main.scss css/style.css && postcss css/style.css --replace"
+    "build": "node-sass scss/main.scss css/style.css && postcss css/style.css --replace",
+    "build-prod": "npm run build && mkdir dist && cp -r img dist && cp -r css dist && cp index.html dist"
   },
   "author": "",
   "license": "ISC",

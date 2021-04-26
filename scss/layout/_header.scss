@@ -1,46 +1,20 @@
-@media screen and(max-width:400px) {
-}
-
-.container {
-  padding-bottom: 50px;
-}
-
-.div_header {
-  background-image: url(../img/computer-code-editor.jpg);
+header {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 70px);
+  align-items: center;
+  background-image: url(../../img/computer-code-editor.jpg);
   background-size: cover;
   background-position: center center;
-  height: 600px;
-}
-
-.logo {
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 50%;
-  padding: 12px;
-  margin-left: 20px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 68, 255);
-  font-family: "Parisienne", cursive;
-  font-size: 25px;
-}
-
-.titre_1 {
+  color: white;
   text-align: center;
-  color: rgb(255, 255, 255);
-  padding-top: 50px;
-}
 
-.tire_description_1 {
-  background-color: rgb(0, 0, 0);
-  padding-top: 15px;
-  align-content: center;
-  margin-top: 165px;
-  width: 225px;
-  margin-left: 70px;
-  height: 320px;
-  border-radius: 20px;
-}
-
-.description_titre_1 {
-  text-align: center;
-  color: rgb(255, 255, 255);
+  #who-am-i {
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 4rem;
+  }
 }

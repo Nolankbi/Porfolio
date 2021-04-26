@@ -4,14 +4,12 @@
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/reboot";
 
-
 /** Bootstrap **/
 @import "node_modules/bootstrap/scss/bootstrap";
 
-
 /** Base **/
-@import 'base';
+@import "base";
 
 /** Layouts **/
-@import 'layout/header';
-@import 'layout/footer';
+@import "layout/header";
+@import "layout/footer";
